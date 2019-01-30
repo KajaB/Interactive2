@@ -70,6 +70,15 @@ body {
 	position: absolute;
 	transform: rotate(40deg);
 }
+#circle6 {
+	width: 76px;
+	height: 76px;
+	background: lightgreen;
+	border-radius: 150px;
+	top: 247px;
+	left: 220px;
+	position: absolute;
+}
 
 #square3 {
 	width: 200px;
