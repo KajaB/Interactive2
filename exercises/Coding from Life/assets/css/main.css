@@ -1,0 +1,139 @@
+body {
+	background: #cccccc;
+}
+
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#square2 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	top: 135px;
+	left: 450px;
+	position: absolute;
+}
+
+#square {
+	width: 250px;
+	height: 150px;
+	background: black;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle2 {
+	width: 110px;
+	height: 110px;
+	background: black;
+	border-radius: 150px;
+	top: 225px;
+	left: 495px;
+	position: absolute;
+}
+#circle3 {
+	width: 80px;
+	height: 80px;
+	background: white;
+	border-radius: 150px;
+	top: 245px;
+	left: 355px;
+	position: absolute;
+}
+#circle4 {
+	width: 76px;
+	height: 76px;
+	background: black;
+	border-radius: 150px;
+	top: 247px;
+	left: 357px;
+	position: absolute;
+}
+#circle5 {
+	width: 50px;
+	height: 44px;
+	background: white;
+	border-radius: 150px;
+	top: 305px;
+	left: 450px;
+	position: absolute;
+	transform: rotate(40deg);
+}
+
+#square3 {
+	width: 200px;
+	height: 100px;
+	background: white;
+	top: 235px;
+	left: 295px;
+	position: absolute;
+}
+
+#square4 {
+	width: 196px;
+	height: 95.5px;
+	background: black;
+	top: 237px;
+	left: 297px;
+	position: absolute;
+}
+#square5 {
+	width: 50px;
+	height: 50px;
+	background: black;
+	top: 302px;
+	left: 455px;
+	position: absolute;
+}
+
+#clip {
+	width: 125px;
+	height: 125px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
