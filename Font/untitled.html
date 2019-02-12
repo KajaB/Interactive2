@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+  body {
+  width: 800px;
+ }
+
+ .letter {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 180px;
+  bottom-margin: 20px;
+}
+
+.leftleg {
+  height: 80px;
+  width: 30px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left:10px;
+  top:-20px;
+}
+.arch {
+  height:50px;
+  width:50px;
+  border:30px solid black;
+  border-top: 0px;
+  border-radius: 0px 0px 80px 80px;
+  transform: rotate(180deg);
+  position: relative;
+  left:10px;
+  top: 15px;
+  border-style: solid;
+  border-bottom-width: 40px;
+}
+.curve {
+  height:50px;
+  width:50px;
+  border:30px solid black;
+  border-top: 0px;
+  border-radius: 0px 0px 80px 80px;
+  transform: rotate(180deg);
+  position: relative;
+  left:10px;
+  top: 15px;
+  border-style: solid;
+  border-bottom-width: 40px;
+}
+.rightleg {
+  height: 80px;
+  width: 30px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left:90px;
+  top:-100px;
+}
+.dot {
+  height:40px;
+  width:40px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -180px;
+  left: 45px;
+}
+
+.leg {
+  height: 160px;
+  width: 30px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left:10px;
+}
+
+.u .a {
+   transform:rotate(180deg);
+   position: relative;
+   left:-30px;
+   top: 15px;
+}
+.u {
+  position: relative;
+  top: -30px;
+}
+
+.p .u {
+  transform: rotate(270deg) scale(0.8);
+  position: relative;
+  top:-205px;
+}
+.p .leg {
+  position: relative;
+  top: 10px;
+}
+
+.e .p {
+  position: relative;
+  left: 10px;
+}
+.e .leg {
+  position: relative;
+  top: 10px;
+}
+
+.e .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.e .leftleg {
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+.e .rightleg {
+  position: relative;
+  top: -90px;
+  left: 140px;
+}
+.e .dot {
+  position: relative;
+  left: 70px;
+  top: -130px;
+}
+div.letter.s {
+  width: 200px;
+  height: 220px;
+}
+.s .a {
+  transform: rotate(270deg);
+  position: relative;
+  top: -40px;
+}
+.s .u {
+  transform: rotate(180deg);
+  position: relative;
+  top: -150px;
+  right: 10px;
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+<div class="letter a">
+  <div class="arch"></div>
+  <div class="leftleg"></div>
+  <div class="rightleg"></div>
+  <div class="dot"></div>
+</div>
+
+<div class="letter u">
+
+  <div class="letter a">
+    <div class="arch"></div>
+    <div class="leftleg"></div>
+   <div class="rightleg"></div>
+  </div>
+
+</div>
+
+<div class="letter p">
+  <div class="leg"></div>
+      <div class="letter u">
+
+        <div class="letter a">
+          <div class="arch"></div>
+          <div class="leftleg"></div>
+          <div class="rightleg"></div>
+        </div>
+
+      </div>
+</div>
+
+<div class="letter e">
+  <div class="letter p">
+      <div class="leg"></div>
+        <div class="letter a">
+          <div class="leftleg"></div>
+          <div class="rightleg"></div>
+          <div class="dot"></div>
+        </div>
+
+        </div>
+  </div>
+</div>
+
+<div class="letter s">
+    <div class="curve"></div>
+</div>
+
+</body>
+</html> 
