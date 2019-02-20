@@ -7,8 +7,8 @@
 }
 div.button {
   position: relative;
-  top:-768px;
-  left:30px;
+  top:-816px;
+  left:-40px;
   width: 380px;
   height:100px;
 }
@@ -24,13 +24,14 @@ div.button {
 }
 .centerStuff {
   height:24vh;
-  width: 74vh;
+  width: 145vh;
   display:grid;
   align-items: center;
   justify-content: center;
   position: relative;
-  top:110px;
-  left:800px;
+  top:-31px;
+  left:240px;
+  transform: scale(0.55);
 } 
 
 .button.alphabet {
