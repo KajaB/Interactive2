@@ -1,0 +1,728 @@
+ body {
+  width: 1000px;
+ }
+.letter div {
+  position: relative;
+}
+.centerStuff {
+  height:24vh;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+} 
+.button.alphabet {
+  height: 17px;
+  width: 60px;
+  position: fixed;
+  top: 671px;
+  left: 340px;
+  border-radius: 20px 20px 20px 20px;
+}
+.button.alphabet {
+  background: black;
+}
+.button.alphabet:hover {
+  background: grey;
+}
+.button.alphabet:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button.quote {
+  height: 17px;
+  width: 60px;
+  position: fixed;
+  top: 671px;
+  left: 410px;
+  border-radius: 20px 20px 20px 20px;
+}
+.button.quote {
+  background: black;
+}
+.button.quote:hover {
+  background: grey;
+}
+.button.quote:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button.name {
+  height: 17px;
+  width: 60px;
+  position: fixed;
+  top:671px;
+  left: 479px;
+  border-radius: 20px 20px 20px 20px;
+}
+.button.name {
+  background: black;
+}
+.button.name:hover {
+  background: grey;
+}
+.button.name:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+ .letter {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 180px;
+  bottom-margin: 20px;
+}
+
+.leftleg {
+  height: 80px;
+  width: 30px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left:10px;
+  top:-20px;
+}
+.arc {
+  height:50px;
+  width:50px;
+  border:30px solid black;
+  border-top: 0px;
+  border-radius: 0px 0px 50px 50px;
+  transform: rotate(180deg);
+  position: relative;
+  left:10px;
+  top: 15px;
+  border-style: solid;
+  border-bottom-width: 40px;
+}
+.rightleg {
+  height: 80px;
+  width: 30px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left:90px;
+  top:-100px;
+}
+.dot {
+  height:35px;
+  width:35px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -180px;
+  left: 45px;
+}
+
+.leg {
+  height: 160px;
+  width: 30px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  left:10px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 30px solid black;
+  border-radius: 50%;
+  border-right: 30px solid black;
+  border-left: 30px solid transparent;
+  position: relative;
+  top:10px;
+  transform: rotate(-25deg);
+}
+.circlebottom {
+  width: 100px;
+  height: 100px;
+  border: 30px solid black;
+  border-radius: 50%;
+  border-right: 30px solid black;
+  border-left: 30px solid transparent;
+  position: relative;
+  top: -150px;
+  transform: rotate(-78deg);
+}
+.circledot1 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -212px;
+  left: 9px;
+}
+.circledot2 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -213px;
+  left: 44px;
+}
+.bottomleg {
+  position: relative;
+  top: -12px;
+  left: 115px;
+  transform:rotate(55deg);
+  height:91px;
+}
+
+
+
+
+
+
+.a .dot {
+  position: relative;
+  left:48px;
+  top:-170px;
+}
+div.letter.b {
+
+}
+.b .u {
+  position: relative;
+  left: -16px;
+}
+div.letter.a2 {
+  position: relative;
+  left:80px;
+  top:-227px;
+}
+
+.c .circle {
+  width: 100px;
+  height: 100px;
+  border: 30px solid black;
+  border-radius: 50%;
+  border-right: 30px solid black;
+  border-left: 30px solid transparent;
+  position: relative;
+  top:10px;
+  transform: rotate(178deg);
+}
+.c .circlebottom {
+  width: 100px;
+  height: 100px;
+  border: 30px solid black;
+  border-radius: 50%;
+  border-right: 30px solid black;
+  border-left: 30px solid transparent;
+  position: relative;
+  top:-150px;
+  transform: rotate(-195deg);
+}
+.c .circledot1 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -294px;
+  left: 108px;
+}
+.c .circledot2 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -240px;
+  left: 120px;
+}
+
+.d .p {
+  position: relative;
+  left: 10px;
+}
+.d .leg {
+  position: relative;
+  top: 10px;
+}
+
+.d .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.d .a .arc {
+  position: relative;
+  top:-34px;
+  left:12px;
+  width:94px;
+}
+.d .circledot1 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -53px;
+  left: 12px;
+}
+.d .circledot2 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -83px;
+  left: 136px;
+}
+
+.e .p {
+  position: relative;
+  left: 10px;
+}
+.e .leg {
+  position: relative;
+  top: 10px;
+}
+
+.e .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.e .leftleg {
+  position: relative;
+  top: -12px;
+  left: 10px;
+}
+.e .rightleg {
+  position: relative;
+  top: -92px;
+  left: 140px;
+}
+.e .dot {
+  position: relative;
+  left: 70px;
+  top: -132px;
+  height: 40px;
+  width:40px;
+}
+
+.f .p {
+  position: relative;
+  left: 10px;
+}
+.f .leg {
+  position: relative;
+  top: 10px;
+}
+
+.f .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.f .leftleg {
+  position: relative;
+  top: -12px;
+  left: 10px;
+}
+.f .dot {
+  position: relative;
+  left: 70px;
+  top: -54px;
+  height: 40px;
+  width:40px;
+}
+
+.g .circle {
+  width: 100px;
+  height: 100px;
+  border: 30px solid black;
+  border-radius: 50%;
+  border-right: 30px solid black;
+  border-left: 30px solid transparent;
+  position: relative;
+  top:10px;
+  transform: rotate(155deg);
+}
+.g .circlebottom {
+  width: 100px;
+  height: 100px;
+  border: 30px solid black;
+  border-radius: 50%;
+  border-right: 30px solid black;
+  border-left: 30px solid transparent;
+  position: relative;
+  top:-150px;
+  transform: rotate(-200deg);
+}
+.g .circledot1 {
+  height:29.5px;
+  width:29.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -146px;
+  left: 88px;
+}
+.g .circledot2 {
+  height:30.5px;
+  width:30.5px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -246px;
+  left: 122px;
+}
+.g .dot {
+  position: relative;
+  top:-107px;
+  left: 83px;
+  height:35px;
+  width: 35px;
+}
+.g .rightleg {
+  position: relative;
+  top: -131px;
+  left: 125px;
+}
+
+.h .leftleg {
+  position: relative;
+  top: -150px;
+  left: 96px;
+  height: 160px; 
+}
+.h .dot {
+  height:40px;
+  width:40px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -244px;
+  left: 48px;
+}
+div.letter.h {
+  position: relative;
+  left: 8px;
+  top: 6px;
+}
+
+.i .p .leg {
+  height: 100px;
+  position: relative;
+  left:59px;
+  top:37px;
+}
+.i .a .leftleg {
+  position: relative;
+  top:-123px;
+  left:59px;
+  transform: rotate(90deg);
+}
+.i .a .rightleg {
+  position: relative;
+  top:-63px;
+  left:59px;
+  transform: rotate(90deg);
+}
+
+.j {
+  position: relative;
+  left:20px;
+  transform: scale(1.1);
+}
+.j .p .leg {
+  height: 80px;
+  width:27px;
+  position: relative;
+  left:64px;
+  top:10px;
+}
+.j .a .arc {
+  transform: rotate(0deg);
+  transform: scale(0.8);
+  position: relative;
+  top:00px;
+  left: -14px;
+  height: 40px;
+  width:56px;
+  position: relative;
+  top:18px;
+  left:-14px;
+}
+.j .a .leftleg {
+  height:24px;
+  width: 24px;
+  position: relative;
+  top:-66px;
+  left:66px;
+}
+.j .a .rightleg {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top:-90px;
+  left:-2px;
+}
+
+.k .p {
+  position: relative;
+  left: 10px;
+}
+.k .leg {
+  position: relative;
+  top: 10px;
+}
+
+.k .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.k .leftleg {
+  position: relative;
+  top: -12px;
+  left: 115px;
+  transform:rotate(55deg);
+  height:91px;
+}
+.k .dot {
+  position: relative;
+  left: 12px;
+  top: -85px;
+  height: 30px;
+  width:30px;
+}
+
+.l .p {
+  position: relative;
+  left: 10px;
+}
+.l .leg {
+  position: relative;
+  top: 10px;
+}
+
+.l .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.l .leftleg {
+  position: relative;
+  top: -12px;
+  left: 140px;
+}
+
+.m .p {
+  position: relative;
+  left: 10px;
+}
+.m .a .dot {
+  position: relative;
+  left: 58px;
+  top:-275px;
+}
+.m .leg {
+  position: relative;
+  top: 10px;
+}
+.m .a .leg {
+  position: relative;
+  top: -150px;
+  left: 110px;
+}
+
+.n .p {
+  position: relative;
+  left: 10px;
+}
+.n .leg {
+  position: relative;
+  top: 10px;
+}
+.n .a .leg {
+  position: relative;
+  top: -193px;
+  left:77px;
+  transform:rotate(90deg);
+}
+.n .a {
+  transform: rotate(90deg);
+  position: relative;
+  top: -170px;
+  right: 57px;
+}
+.n .leftleg {
+  position: relative;
+  top: -12px;
+  left: 70px;
+  transform: rotate(71deg);
+  height: 106px;
+}
+
+div.letter.o {
+  width: 180px;
+  height: 180px;
+}
+
+.p .u {
+  transform: rotate(270deg) scale(0.8);
+  position: relative;
+  top:-205px;
+  left: -16px;
+}
+.p .leg {
+  position: relative;
+  top: 10px;
+}
+.p .u .a .arc {
+  height: 54px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.p .u .a .leftleg {
+  height: 53px;
+}
+
+div.letter.q {
+  transform: rotate(-94deg);
+}
+.q .dot {
+  position: relative;
+  left: 2px;
+  top: -235px;
+  height: 40px;
+  width:40px;
+
+}
+.q .circle {
+  transform: rotate(-35deg);
+}
+.q .circlebottom {
+  transform: rotate(-66deg);
+}
+.q .circledot1 {
+  position: relative;
+  left: 54px;
+  top: -181px;
+}
+.q .circledot2 {
+  position: relative;
+  left: 4px;
+  top: -252px;
+}
+
+div.letter.r {
+  position: relative;
+  left: 10px;
+}
+.r .u {
+  transform: rotate(270deg) scale(0.8);
+  position: relative;
+  top:-205px;
+  left: -16px;
+}
+.r .leg {
+  position: relative;
+  top: 10px;
+}
+.r .u .a .arc {
+  height: 54px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.r .u .a .leftleg {
+  height: 53px;
+}
+.r .dot {
+  position: relative;
+  top: -214px;
+  left: 149px;
+  transform:rotate(55deg);
+  height: 90px;
+  width: 34px;
+  background-color: black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+div.letter.s {
+  width: 160px;
+  height: 220px;
+}
+.s {
+  transform: scale(0.9);
+  position: relative;
+  top: -20px;
+  left: 9px;
+}
+.s .a {
+  transform: rotate(270deg);
+  position: relative;
+  top: -37px;
+  left: 5px;
+}
+.s .a .leftleg {
+  height: 67px;
+  position: absolute;
+  top:50px;
+}
+.s .a .rightleg {
+  height: 69px;
+  position: absolute;
+  top: 63px;
+}
+.s .a .arc {
+  height: 54px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+ }
+.s .u {
+  transform: rotate(180deg);
+  position: relative;
+  top: -150px;
+  right: 10px;
+}
+.s .u .leftleg {
+  height: 67px;
+}
+
+.t .p .leg {
+  height: 100px;
+  position: relative;
+  left:59px;
+  top:37px;
+}
+.t .a .leftleg {
+  position: relative;
+  top:-123px;
+  left:59px;
+  transform: rotate(90deg);
+}
+.t .a .rightleg {
+  position: relative;
+  top:-63px;
+  left:59px;
+  transform: rotate(90deg);
+}
+
+.u .a {
+   transform:rotate(180deg);
+   position: relative;
+   left:-30px;
+   top: 15px;
+}
+.u {
+  position: relative;
+  top: -30px;
+  transform: scale(1.2);
+}

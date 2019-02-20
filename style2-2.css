@@ -5,14 +5,14 @@
 .letter div {
   position: relative;
 }
+
 div.button {
   position: relative;
-  top:-768px;
-  left:30px;
+  top:-579px;
+  left:845px;
   width: 380px;
   height:100px;
 }
-
 .letter:hover .leftleg {
   width:100%;
 }
@@ -22,23 +22,25 @@ div.button {
 .letter:hover .circle {
   border:1px;
 }
+div.centerStuff {
+  transform: scale(0.45);
+}
 .centerStuff {
-  height:24vh;
-  width: 74vh;
+  height:104vh;
+  width: 362vh;
   display:grid;
   align-items: center;
   justify-content: center;
   position: relative;
-  top:110px;
-  left:800px;
+  left: -730px;
 } 
 
 .button.alphabet {
   height: 34px;
   width: 120px;
   position: absolute;
-  top: 1361px;
-  left: 280px;
+  top: 1021px;
+  left: 340px;
   border-radius: 20px 20px 20px 20px;
 }
 .button.alphabet {
@@ -56,12 +58,12 @@ div.button {
   height: 34px;
   width: 120px;
   position: absolute;
-  top: 1361px;
-  left: 410px;
+  top: 1021px;
+  left: 470px;
   border-radius: 20px 20px 20px 20px;
 }
 .button.quote {
-  background:#40e0d0;
+  background: #40e0d0;
 }
 .button.quote:hover {
   background: grey;
@@ -75,8 +77,8 @@ div.button {
   height: 34px;
   width: 120px;
   position: absolute;
-  top:1361px;
-  left: 539px;
+  top:1021px;
+  left: 600px;
   border-radius: 20px 20px 20px 20px;
 }
 .button.name {
@@ -197,7 +199,6 @@ div.button {
   left: 115px;
   transform:rotate(55deg);
   height:91px;
-  background: #40e0d0;
 }
 
 
@@ -212,7 +213,7 @@ div.button {
 }
 
 div.letter.b {
-
+  width: 150px;
 }
 .b .u {
   position: relative;
@@ -256,6 +257,9 @@ div.letter.a2 {
   height: 53px;
 }
 
+div.letter.e {
+
+}
 .e .p {
   position: relative;
   left: 10px;
@@ -289,6 +293,9 @@ div.letter.a2 {
   width:40px;
 }
 
+div.letter.f {
+  width: 120px;
+}
 .f .p {
   position: relative;
   left: 10px;
@@ -317,7 +324,9 @@ div.letter.a2 {
   width:40px;
 }
 
-
+div.letter.c {
+  width: 152px;
+}
 .c .circle {
   width: 100px;
   height: 100px;
@@ -334,7 +343,7 @@ div.letter.a2 {
   height: 100px;
   border: 30px solid #40e0d0;
   border-radius: 50%;
-  border-right: 30px solid #40e0d0;;
+  border-right: 30px solid #40e0d0;
   border-left: 30px solid transparent;
   position: relative;
   top:-150px;
@@ -348,7 +357,6 @@ div.letter.a2 {
   position: relative;
   top: -294px;
   left: 108px;
-
 }
 .c .circledot2 {
   height:29.5px;
@@ -360,6 +368,9 @@ div.letter.a2 {
   left: 120px;
 }
 
+div.letter.d {
+  width:175px;
+}
 .d .p {
   position: relative;
   left: 10px;
@@ -393,7 +404,7 @@ div.letter.a2 {
 .d .circledot2 {
   height:29.5px;
   width:29.5px;
-  background:#40e0d0;
+  background: #40e0d0;
   border-radius: 50%;
   position: relative;
   top: -82px;
@@ -471,11 +482,13 @@ div.letter.h {
   position: relative;
   left: 8px;
   top: 6px;
+  width: 191px;
 }
 div.letter.q {
   transform: rotate(-94deg);
   position: relative;
-  left: -15px;
+  left: -42px;
+  top: -20px;
 }
 .q .dot {
   position: relative;
@@ -535,7 +548,9 @@ div.letter.r {
   border-radius: 20px 20px 20px 20px;
 }
 
-
+div.letter.i {
+  width:120px;
+}
 .i .p .leg {
   height: 100px;
   position: relative;
@@ -594,6 +609,9 @@ div.letter.r {
   left:-2px;
 }
 
+div.letter.k {
+  width:200px;
+}
 .k .p {
   position: relative;
   left: 10px;
@@ -692,7 +710,7 @@ div.letter.r {
 }
 
 div.letter.o {
-  width: 180px;
+  width: 120px;
   height: 180px;
 }
 
@@ -703,7 +721,7 @@ div.letter.s {
 .s {
   transform: scale(0.9);
   position: relative;
-  top: -20px;
+  top: -13px;
   left: 9px;
 }
 .s .a {
@@ -795,8 +813,8 @@ div.letter.v {
 }
 
 .x {
-  position: 
-  left:20px; 
+  position: relative
+  left:20px;
 }
 .x .leftleg {
   position: relative;
@@ -813,6 +831,9 @@ div.letter.v {
   transform: rotate(-31deg);
 }
 
+div.letter.y {
+  width: 200px;
+}
 .y .p .leg {
   height: 80px;
   width:27px;
@@ -848,6 +869,7 @@ div.letter.z {
   position: relative; 
   left:-31px;
   top:10px;
+  width: 136px;
 }
 .z {
   transform: scale(1.07);
@@ -892,7 +914,7 @@ div.letter.one {
 .one .dot {
   height:35px;
   width:35px;
-  background: #40e0d0;
+  background: black;
   border-radius: 50%;
   position: relative;
   top: -309px;
@@ -920,7 +942,7 @@ div.letter.one {
 .two .dot {
   height:35px;
   width:35px;
-  background: #40e0d0;
+  background: black;
   border-radius: 50%;
   position: relative;
   top: -388px;
@@ -1046,7 +1068,6 @@ div.letter.one {
   left: 130px;
   height: 40px;
   width: 40px;
-  background: #40e0d0;
 }
 
 .six {
