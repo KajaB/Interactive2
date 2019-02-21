@@ -24,14 +24,14 @@ div.button {
 }
 .centerStuff {
   height:24vh;
-  width: 145vh;
+  width: 148vh;
   display:grid;
   align-items: center;
   justify-content: center;
   position: relative;
   top:-31px;
-  left:240px;
-  transform: scale(0.55);
+  left:-10px;
+  transform: scale(0.47);
 } 
 
 .button.alphabet {
@@ -876,12 +876,12 @@ div.letter.z {
 }
 
 div.letter.one {
-  position: relative;
+
 }
 .one {
   position: relative;
   top:170px;
-  left:23px;
+  left:-9px;
   float:none;
 }
 .one .leftleg {
@@ -900,10 +900,13 @@ div.letter.one {
   left: 55px;
 }
 
+div.letter.two {
+  width: 133px;
+}
 .two {
   position: relative;
   top:170px;
-  left:-26px;
+  left:-66px;
 }
 .two .leftleg {
   position: relative;
@@ -932,7 +935,7 @@ div.letter.one {
   transform: scale(1.08);
   position: relative;
   top:-10px;
-  left:-10px;
+  left:-53px;
 }
 .three .u {
   transform: rotate(270deg);
@@ -944,7 +947,7 @@ div.letter.one {
    position: relative;
    left:2px;
    top: 35px;
-   width:71px;
+   width:73px;
 }
 .three .a .dot {
   height:35px;
@@ -956,19 +959,19 @@ div.letter.one {
 .three .a .leftleg {
   position: relative;
   top:-26px;
-  left:2px;
+  left:3px;
   
 }
 .three .a .rightleg {
   position: relative;
   top:-106px;
-  left:103px;
+  left:104px;
 }
 
 .four {
   position: relative;
   top:20px;
-  left: -30px;
+  left: -76px;
 }
 .four .p {
   position: relative;
@@ -977,7 +980,8 @@ div.letter.one {
 .four .leg {
   position: relative;
   top: 10px;
-  left:120px;
+  left:125px;
+  height: 150px;
 }
 
 .four .a {
@@ -989,13 +993,13 @@ div.letter.one {
 .four .leftleg {
   position: relative;
   top: 22px;
-  left: 37px;
+  left: 44px;
   transform: rotate(90deg);
 }
 .four .rightleg {
   position: relative;
   top: -83px;
-  left: 70px;
+  left: 73px;
 }
 .four .dot {
   position: relative;
@@ -1007,8 +1011,8 @@ div.letter.one {
 
 .five {
   position: relative;
-  top:20px;
-  left: 1px;
+  top:13px;
+  left: -60px;
 }
 .five .r .u {
   transform: rotate(270deg) scale(0.8);
@@ -1019,7 +1023,7 @@ div.letter.one {
 .five .r .leg {
   position: relative;
   top: 10px;
-  height:64px;
+  height:62px;
 }
 .five .r .u .a .arc {
   height: 54px;
@@ -1054,10 +1058,10 @@ div.letter.one {
   transform: rotate(195deg) scale(-1,1);
   position: relative;
   top: 27px;
-  left:-5px;
+  left:-91px;
 }
 .six .p .u {
-  transform: rotate(270deg) scale(0.8);
+  transform: rotate(270deg) scale(0.75);
   position: relative;
   top:-205px;
   left: -16px;
@@ -1079,16 +1083,16 @@ div.letter.seven {
   height: 180px;
   width:131px;
   position: relative;
-  left: 12px;
+  left: -98px;
 }
 .seven .z {
   transform: scale(1.);
 }
 .seven .z .p .leg {
   position: relative;
-  top: 10px;
+  top: 18px;
   left: 59px;
-  height: 160px;
+  height: 165px;
   transform: rotate(31deg);
 }
 .seven .z .rightleg {
