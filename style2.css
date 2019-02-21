@@ -954,7 +954,7 @@ div.letter.two {
   width: 35px;
   position: relative;
   top:-170px;
-  left:46px;
+  left:51px;
 }
 .three .a .leftleg {
   position: relative;
@@ -1101,4 +1101,51 @@ div.letter.seven {
   left: 91px;
   height: 75px;
   transform: rotate(90deg);
+}
+
+.qmark {
+  position: relative;
+  top:-3px;
+  left: -90px;
+  transform: rotate(180deg) scale(-1,1);
+}
+.qmark .r .u {
+  transform: rotate(270deg) scale(0.8);
+  position: relative;
+  top:-205px;
+  left: -16px;
+}
+.qmark .r .leg {
+  position: relative;
+  top: 10px;
+  height:50px;
+}
+.qmark .r .u .a .arc {
+  height: 54px;
+  width: 40px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: relative;
+  top:69px;
+  left:221px;
+}
+.qmark .r .u .a .leftleg {
+  height: 53px;
+  position: relative;
+  top:27px;
+  left:221px;
+}
+.qmark .r .u .a .rightleg {
+  height: 53px;
+  position: relative;
+  top:-27px;
+  left:291px;
+}
+.qmark .r .dot {
+  position: relative;
+  top: -65px;
+  left: 82px;
+  height: 40px;
+  width: 40px;
+  background: #40e0d0;
 }
