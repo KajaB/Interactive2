@@ -1,0 +1,45 @@
+html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+    body {
+      background-image:  linear-gradient(to bottom, #545454 0%,#0e0e0e 100%);
+      background-color: rgb(17, 18, 40);
+    }
+    canvas {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+	}
+    #canvas-reference {
+        display: none;
+      }   
+    img {
+      display:none;
+    }
+
+    .imgdiv {
+    	width: 500px;
+    	height: 500px;
+    	position: relative;
+    	left: 329px;
+    	top: 120px;
+    	z-index:2;
+    	cursor: pointer;
+    }
+
+
+
+
+
+/*https://i.ibb.co/g6N0r6K/Pepe.png
+https://i.ibb.co/rKPfyCg/supreme.png
+https://i.ibb.co/zGmKy2z/Untitled-1.png
+https://i.ibb.co/XbQTnjn/WW.png
+https://i.ibb.co/HNYFh4w/CM.png
+https://i.ibb.co/M2Rwctb/Aquaman.png*/
