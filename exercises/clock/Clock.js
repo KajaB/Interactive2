@@ -4,7 +4,7 @@ function startTime() {
     var m=today.getMinutes();
         var ampm = h >= 12 ? 'pm' : 'am';
         h = h % 24;
-    h = h ? h : 12; // the hour '0' should be '12'
+    h = h ? h : 0; // the hour '0' should be '12'
         h = String(checkTime(h)).split('');
     m = String(checkTime(m)).split('');
 
