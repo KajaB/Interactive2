@@ -1,0 +1,72 @@
+body {
+  transition:background 200ms ease;  
+  font-size:2vw;
+  font-family:Menlo, monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #ffd300;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(-1,1);
+    font-family: impact;
+    font-size: 50px;
+  }
+
+    .copy {
+    position:absolute;
+    bottom:200px;
+    font-size: -1vw;
+  }
+
+}
+
+@media only screen and (max-height: 420px) {
+  body {
+    background-color: #f98b88;
+  }
+
+}
+
+@media only screen and (min-width: 601px){
+  body{
+    padding:10vw;
+    background-color: #f9a602;
+  }
+
+  h1{
+    border:1px dashed black;
+    padding:30px;
+  }
+  
+}
+
+
+
+@media only screen and  (min-width: 1001px) {
+  body {
+    padding:10vw;
+    background-color: #fd6a02;
+    font-family: serif;
+  }
+  
+  h1 {
+    border:1px;
+    padding:30px;
+    font-size: 10vw;
+  }
+
+  .copy {
+    position:absolute;
+    bottom:200px;
+    font-size: 1vw;
+  }
+  
+}
