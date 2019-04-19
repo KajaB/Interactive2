@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Takenobu Igarashi Exhibition</title>
+	<link rel="stylesheet" href="style.css">
+<script src="parallax.js"></script>
+</head>
+<body>
+	<div class="container">
+		<ul id="scene">
+			<li class="layer" data-depth="3"><img src="takenobu2.png"></li>
+			<li class="layer" data-depth="1"><img src="Tokyo Summer Jazz Poster3.png"></li>
+			<li class="layer" data-depth="-1"><img src="Calendar Poster December_ 1987_3.png"></li>
+			<div>
+			<a href="january.html"> <li class="layer" data-depth="2"><img src="Calendar Poster January_1988_3.png"></li></a>
+			</div>
+		</ul>
+	</div>
+
+
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+</body>
+</html>

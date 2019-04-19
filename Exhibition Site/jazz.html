@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tokyo Summer Jazz Poster</title>
+	<link rel="stylesheet" href="style4.css">
+<script src="parallax.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="arrow">
+  			<a href="january.html" class="arrow-top"></a>
+  			<a href="january.html" class="arrow-bottom"></a>
+		</div>
+		<div class="arrow2">
+  			<a href="december.html" class="arrow2-top"></a>
+  			<a href="december.html" class="arrow2-bottom"></a>
+		</div>
+		<div class="info">
+			<h1> TOKYO SUMMER JAZZ POSTER</h1>
+			<p>DATE CREATED: 1985 <br> CLASSIFICATION: PRINTED MATERIAL <br> MEDIUM: OFFSET LITHOGRAPH <br> DIMENSIONS: 28.68IN x 20.25IN</p>
+	</div>
+		<ul id="scene">
+			<li class="layer" data-depth=".1"><img src="jazz top.png"></li>
+			<li class="layer" data-depth=".75"><img src="jazzshadow.png"></li>
+			<li class="layer" data-depth=".25"><img src="jazz.png"></li>
+			<li class="layer" data-depth=".5"><img src="jazzboxes.png"></li>
+		</ul>
+	</div>
+
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+</body>
+</html>

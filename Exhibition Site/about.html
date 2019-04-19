@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Takenobu Igarashi</title>
+	<link rel="stylesheet" href="style5.css">
+<script src="parallax.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="arrow">
+  			<a href="january.html" class="arrow-top"></a>
+  			<a href="january.html" class="arrow-bottom"></a>
+		</div>
+		<div class="arrow2">
+  			<a href="december.html" class="arrow2-top"></a>
+  			<a href="december.html" class="arrow2-bottom"></a>
+		</div>
+		<div class="info">
+			<h1> TAKENOBU IGARASHI</h1>
+			<p>Japanese graphic designer and artist Takenobu Igarashi is perhaps best known in the United States for his letterforms and numbers drawn by hand in the axonometric method — guided by three axes, instead of two — so that the letters appear three-dimensional, like small architecture. For eight years, from 1984 through 1991, Igarashi designed annual calendars, creating 622 unique number designs for each calendar — a remarkable achievement in graphic design. As we move from 2018 into 2019, we look back thirty years to appreciate Igarashi’s exquisite designs for each day of 1988 and 1989.</p>
+	</div>
+		<ul id="scene">
+			<li class="layer" data-depth=".1"><img src="portrait-background.png"></li>
+			<li class="layer" data-depth=".35"><img src="portrait.png"></li>
+			
+			<!-- <li class="layer" data-depth=".25"><img src="jazz.png"></li>
+			<li class="layer" data-depth=".5"><img src="jazzboxes.png"></li> --->
+		</ul>
+	</div>
+
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+</body>
+</html>
