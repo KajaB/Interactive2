@@ -181,8 +181,6 @@ div.container li{
 }
 li.layer img{
   width: 85vw;
-  position: absolute;
-  top: 60px;
 }
 
 ul#scene{
@@ -213,6 +211,12 @@ ul#scene{
     top: -1vw;
     left: 3vh;
   }
+
+  li.layer img{
+  width: 85vw;
+  position: absolute;
+  top: 70px;
+}
   /*div.info h1 {
     letter-spacing: 1px;
     font-size: 2vw;
