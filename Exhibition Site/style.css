@@ -85,4 +85,11 @@ ul#scene{
 	ul#scene{
 		width: 100vw;
 	}
+	div.info {
+    width: 300px;
+    height: ;
+    position: absolute;
+    top: -1vw;
+    left: 3vh;
+  }
 }

@@ -187,10 +187,10 @@ ul#scene{
     width: 100vw;
   }
   div.info {
-  position: absolute;
-  top: 20px;
-  left: 500px;
-  width: 2vw;
-  height: 2vh;
+    width: 300px;
+    height: ;
+    position: absolute;
+    top: -1vw;
+    left: 3vh;
   }
 }
