@@ -21,28 +21,29 @@ body
 	background-blend-mode: screen;
 }
 
-.info {
-	position: relative;
-	top: -190px;
-	width: 20%;
-	height: 2vh;
+div.info {
+  position: absolute;
+  top: 50px;
+  left: ;
+  width: ;
+  height: ;
+  font-family: "coolvetica";
 }
-
-
-
-h1 {
-    font-family: "coolvetica";
-    letter-spacing: 1px;
-    position: relative;
-    left: 1100px;
-    top: 550px;
+div.info h1 {
+  letter-spacing: 1px;
+  font-size: 2vw;
+  position: absolute;
+  left:66vw;/*1000px;*/
+  top: 20vh;/*150px;*/
+  width: 310px;
 }
-p {
-	font-family: "coolvetica";
-	letter-spacing: .5px;
-	position: relative;
-	left: 1100px;
-	top: 560px;
+div.info p {
+  letter-spacing: .5px;
+  font-size: 1vw;
+  position: absolute;
+  left:66vw;/*1000px;*/
+  top: 28vh;/*200px;*/
+  width: 200px;
 }
 
 
@@ -162,7 +163,7 @@ div.container li{
   width: ;
 }
 li.layer img{
-  width: 85vw;
+  width: 80vw;
 }
 
 ul#scene{
