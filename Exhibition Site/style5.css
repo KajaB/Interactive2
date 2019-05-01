@@ -270,7 +270,7 @@ ul#scene{
     background-blend-mode: screen;
   }
   li.layer img{
-    width: 120vw;
+    width: 100vw;
 
   }
   ul#scene{
@@ -280,27 +280,22 @@ ul#scene{
     width: 300px;
     height: ;
     position: absolute;
-    top: 250px;
+    top: 200px;
     right: 360px;
   }
 
   div.info h1 {
-  letter-spacing: 1px;
-  font-size: 5vw;
-  position: absolute;
-  left:81vw;/*1000px;*/
-  top: 15vh;/*150px;*/
-  width: 275px;
-  font-family: georgia;
+    top: 180px;
+    position: relative;
+    left: 320px;
+    font-size: 20px;
   }
 
   div.info p {
-  letter-spacing: .5px;
-  font-size: 1vw;
-  position: absolute;
-  left:66vw;/*1000px;*/
-  top: 28vh;/*200px;*/
-  width: 370px;
-  font-family: sans-serif;
-}
+    width: 370px;
+    position: relative;
+    top: 190px;
+    font-size: 11px;
+    text-align: center;
+  }
 }
