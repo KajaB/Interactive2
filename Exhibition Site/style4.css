@@ -47,7 +47,7 @@ div.info p {
 }
 
 
-.arrow {
+/*.arrow {
   cursor: pointer;
   height: 120px;
   left: 5%;
@@ -157,13 +157,102 @@ div.info p {
 }
 .arrow2:active {
   transform: translateX(-50%) translateY(-50%) scale(0.9);
+}*/
+
+.wrapper {
+  margin: 0 auto;
+  display: table;
 }
+
+.prev, .next {
+  /* only modern browser */
+}
+.prev:not(:nth-child(1n+3)), .next:not(:nth-child(1n+3)) {
+  font-size: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  text-indent: -9999px;
+  width: 2em;
+  height: 2em;
+  position: relative;
+  overflow: hidden;
+}
+.prev:not(:nth-child(1n+3)):before, .prev:not(:nth-child(1n+3)):after, .next:not(:nth-child(1n+3)):before, .next:not(:nth-child(1n+3)):after {
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  height: 2px;
+  background-color: #e1805e;
+  top: 50%;
+}
+.prev:not(:nth-child(1n+3)):hover:before, .prev:not(:nth-child(1n+3)):hover:after, .next:not(:nth-child(1n+3)):hover:before, .next:not(:nth-child(1n+3)):hover:after {
+  background-color: #afcc7e;
+}
+
+.prev:not(:nth-child(1n+3)):after {
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.prev:not(:nth-child(1n+3)):before {
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.next:not(:nth-child(1n+3)):after {
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.next:not(:nth-child(1n+3)):before {
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
 
 div.container li{
   width: ;
 }
 li.layer img{
-  width: 80vw;
+ width: 80vw;
+  position: relative;
+  top: -20px;
+
+  object-fit: cover;
+  width: 1200px;
 }
 
 ul#scene{
