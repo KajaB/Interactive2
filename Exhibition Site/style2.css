@@ -296,7 +296,7 @@ ul#scene{
 
   li.layer img{
     width: 129vw;
-    position: absolute;
+    position: relative;
     top: 10px;
     left: -24px;
   }
