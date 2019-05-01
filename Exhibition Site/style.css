@@ -65,12 +65,7 @@ ul#scene{
 }*/
 
 
-img {
-	object-fit: cover;
 
-	width: ;
-	height: ;
-}
 
 
 
@@ -84,13 +79,15 @@ img {
 	.mixBlnd{
 		background-blend-mode: screen;
 	}
-	li.layer img{
-		width: 100vw;
-
-		
-
-	}
 	ul#scene{
-		width: 100vw;
-	}
+    	width: 100vw;
+  }
+ 
+
+  	li.layer img{
+  		width: 189vw;
+  		position: absolute;
+  		top: 10px;
+  		left: -20px;
+  }
 }

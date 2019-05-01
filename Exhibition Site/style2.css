@@ -295,10 +295,10 @@ ul#scene{
  
 
   li.layer img{
-  width: 189vw;
-  position: absolute;
-  top: 10px;
-  left: -20px;
+    width: 129vw;
+    position: absolute;
+    top: 10px;
+    left: -20px;
   }
 
   div.info {
