@@ -286,7 +286,7 @@ ul#scene{
 
   div.info h1 {
     position: relative;
-    top: 150px;
+    top: 180px;
     left: 370px;
     font-size: 20px;
   }
@@ -294,8 +294,8 @@ ul#scene{
   div.info p {
     width: 200px;
     position: relative;
-    top: 165px;
-    left: 375px;
+    top: 190px;
+    left: 270px;
     font-size: 11px;
     text-align: center;
   }
