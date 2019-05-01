@@ -279,22 +279,13 @@ ul#scene{
   div.info {
     width: 300px;
     height: ;
-    position: fixed;
+    position: absolute;
     top: 180px;
     right: 400px;
   }
-
-   div.info h1 {
-    width: 130px;
-    position: fixed;
-    top: 315px;
-    left: 49px;
-  }
-
   div.info p {
     width: 130px;
-    position: fixed;
-    top: 335px;
-    left: 49px;
+    position: relative;
+    top: 160px;
   }
 }
