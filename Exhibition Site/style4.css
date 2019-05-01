@@ -269,7 +269,7 @@ ul#scene{
     background-blend-mode: screen;
   }
   li.layer img{
-    width: 85vw;
+    width: 129vw;
 
   }
   ul#scene{
@@ -279,7 +279,22 @@ ul#scene{
     width: 300px;
     height: ;
     position: absolute;
-    top: -1vw;
-    left: 3vh;
+    top: 200px;
+    right: 360px;
+  }
+
+  div.info h1 {
+    top: 180px;
+    position: relative;
+    left: 370px;
+    font-size: 20px;
+  }
+
+  div.info p {
+    width: 370px;
+    position: relative;
+    top: 190px;
+    font-size: 11px;
+    text-align: center;
   }
 }
