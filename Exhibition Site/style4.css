@@ -270,6 +270,8 @@ ul#scene{
   }
   li.layer img{
     width: 129vw;
+    position: relative;
+    left: -46px;
 
   }
   ul#scene{
@@ -294,7 +296,7 @@ ul#scene{
     width: 370px;
     position: relative;
     top: 190px;
-    left: 280px;
+    left: 330px;
     font-size: 11px;
     text-align: center;
   }
