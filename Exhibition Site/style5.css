@@ -280,12 +280,12 @@ ul#scene{
     width: 300px;
     height: ;
     position: absolute;
-    top: 180px;
+    top: 200px;
     right: 360px;
   }
   div.info p {
     width: 130px;
     position: relative;
-    top: 160px;
+    top: 180px;
   }
 }
