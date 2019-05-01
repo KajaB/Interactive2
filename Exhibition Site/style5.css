@@ -285,14 +285,22 @@ ul#scene{
   }
 
   div.info h1 {
-    
-    font-size: 15px;
+  letter-spacing: 1px;
+  font-size: 5vw;
+  position: absolute;
+  left:81vw;/*1000px;*/
+  top: 15vh;/*150px;*/
+  width: 275px;
+  font-family: georgia;
   }
 
   div.info p {
-    width: 200px;
-    position: relative;
-    top: 180px;
-    font-size: 10px;
-  }
+  letter-spacing: .5px;
+  font-size: 1vw;
+  position: absolute;
+  left:66vw;/*1000px;*/
+  top: 28vh;/*200px;*/
+  width: 370px;
+  font-family: sans-serif;
+}
 }
