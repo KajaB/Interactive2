@@ -81,7 +81,7 @@ ul#scene{
 	}
 	ul#scene{
     	width: 100vw;
-  }
+  	}
  
 
   	li.layer img{
@@ -89,5 +89,10 @@ ul#scene{
   		position: relative;
   		top: 10px;
   		left: -20px;
-  }
+  	}
+  	#january {
+  		position: relative;
+  		left: 2000px;
+}
+
 }
