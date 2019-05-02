@@ -85,14 +85,14 @@ ul#scene{
  
 
   	li.layer img{
-  		width: 110vw;
+  		width: 189vw;
   		position: relative;
   		top: 10px;
-  		left: -51px;
+  		left: -20px;
   	}
-  	#january {
-  		position: relative;
-  		left: 2000px;
+  	li.layer img[src*="Calendar Poster January_1988_2.png"] {
+    position: relative;
+    left: 2000px;
 }
 
 }
