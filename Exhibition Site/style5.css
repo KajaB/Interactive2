@@ -291,6 +291,7 @@ ul#scene{
     position: relative;
     left: 340px;
     font-size: 20px;
+    font-family: georgia;
   }
 
   div.info p {
@@ -300,5 +301,6 @@ ul#scene{
     left: 270px;
     font-size: 11px;
     text-align: left;
+    font-family: Fira Sans;
   }
 }
